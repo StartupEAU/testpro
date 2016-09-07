@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:text="VISA"
                 android:id="@+id/button"
-                android:textSize="@dimen/abc_dialog_padding_top_material"
+                android:textSize="@dimen/h2"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:clickable="false"
@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:text="E-Banking"
                 android:id="@+id/button2"
-                android:textSize="@dimen/abc_dialog_padding_top_material"
+                android:textSize="@dimen/h2"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:clickable="false"
@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:text="Counter Service"
                 android:id="@+id/button3"
-                android:textSize="@dimen/abc_dialog_padding_top_material"
+                android:textSize="@dimen/h2"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:clickable="false"
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:text="จำนวนเงิน"
             android:id="@+id/button4"
-            android:textSize="@dimen/abc_dialog_padding_top_material" />
+            android:textSize="@dimen/h1" />
     </LinearLayout>
 
     <LinearLayout
@@ -92,7 +92,8 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="โอนเงินเข้าระบบ"
             android:id="@+id/textView"
-            android:textSize="@dimen/abc_select_dialog_padding_start_material" />
+            android:textSize="@dimen/h1"
+            android:textIsSelectable="false" />
     </LinearLayout>
 
     <LinearLayout
@@ -108,7 +109,8 @@
             android:layout_height="wrap_content"
             android:text="สถานะการเงิน"
             android:id="@+id/button6"
-            android:onClick="bt1" />
+            android:onClick="bt1"
+            android:textSize="@dimen/h2" />
     </LinearLayout>
 
 </RelativeLayout>

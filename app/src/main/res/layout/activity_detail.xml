@@ -21,7 +21,7 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="สถานะการเงิน"
             android:id="@+id/textView2"
-            android:textSize="@dimen/abc_dialog_padding_material"
+            android:textSize="@dimen/h1"
             android:longClickable="false" />
 
     </LinearLayout>
@@ -46,7 +46,8 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="ยอดเงิน"
-                android:id="@+id/textView3" />
+                android:id="@+id/textView3"
+                android:textSize="@dimen/h2" />
 
             <EditText
                 android:layout_width="255dp"
@@ -65,7 +66,8 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="ซื้อสินค้า"
-                android:id="@+id/textView4" />
+                android:id="@+id/textView4"
+                android:textSize="@dimen/h2" />
 
             <EditText
                 android:layout_width="255dp"
@@ -84,7 +86,8 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="ค่าโฆษณา"
-                android:id="@+id/textView5" />
+                android:id="@+id/textView5"
+                android:textSize="@dimen/h2" />
 
             <EditText
                 android:layout_width="255dp"
@@ -103,7 +106,8 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="คงเหลือ"
-                android:id="@+id/textView6" />
+                android:id="@+id/textView6"
+                android:textSize="@dimen/h2" />
 
             <EditText
                 android:layout_width="255dp"
@@ -128,7 +132,8 @@
             android:id="@+id/button5"
             android:layout_gravity="right"
             android:height="1dp"
-            android:hint="11" />
+            android:hint="11"
+            android:textSize="@dimen/h2" />
     </LinearLayout>
 
 </RelativeLayout>
