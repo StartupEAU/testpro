@@ -10,6 +10,8 @@
     tools:context="com.example.onasume.startupeau.Register">
 
 
+
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -201,7 +203,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="OK"
-            android:id="@+id/button7" />
+            android:id="@+id/button7"
+            android:onClick="BtnOK" />
     </LinearLayout>
 
 </RelativeLayout>

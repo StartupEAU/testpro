@@ -35,7 +35,8 @@
                 android:id="@+id/button"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="1"
-                android:background="@drawable/download" />
+                android:background="@drawable/download"
+                android:onClick="Btn" />
 
             <Button
                 android:layout_width="100dp"
